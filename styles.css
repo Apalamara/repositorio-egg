@@ -1,0 +1,382 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #666;
+  }
+  
+  ul, ol {
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #f6d5d8;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 28px;
+    margin-top: 10px;
+  }
+  
+  header p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Sección de búsqueda */
+  #search {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #search input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: slategray;
+  }
+  
+  #search button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e5c8e6;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  /* Sección destacada */
+  #featured {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #featured img {
+    width: 300px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  #featured h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Beneficios de adoptar */
+  #benefits {
+    background-color: #dce6d8;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  #benefits h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  #benefits ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Proceso de adopción */
+  #adoption-process {
+
+    background-color: #e6dce2;
+    padding: 62px;
+}
+  
+  
+  #adoption-process h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  #adoption-process ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  #adoption-process li {
+    flex: 0 0 50%;
+    margin-bottom: 10px;
+  }
+  
+  /* Testimonios */
+  #testimonials {
+    background-color: #dce6d8;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .testimonial {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .testimonial img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  /* Recursos */
+  #resources {
+    background-color: #e6dce2;
+    padding: 20px;
+  }
+  
+  #resources h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  #resources ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  #resources li {
+    flex: 0 0 50%;
+    margin-bottom: 10px;
+    background-color: #eda6a6;
+    display: block;
+    padding: 20px;
+  }
+  
+  /* Contacto */
+  #contact {
+    background-color: #d5e1f6;
+    padding: 60px;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  #contact textarea {
+    height: 150px;
+  }
+  
+  #contact button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #c7e8c9;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  /* Pie de página */
+  footer {
+    background-color: #f6d5d8;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer nav a {
+    margin-right: 10px;
+    color: #666;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+  }
+  
+  /* Media Queries para dispositivos móviles */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 24px;
+    }
+  
+    #featured img {
+      width: 200px;
+    }
+  
+    #benefits ul {
+      flex-direction: row;
+    }
+  
+    #benefits li {
+      margin-bottom: 0;
+    }
+  
+    #adoption-process ol {
+      flex-direction: column;
+    }
+  
+    #adoption-process li {
+      flex: 0 0 100%;
+    }
+  
+    #testimonials .testimonial {
+      width: 100%;
+    }
+  
+    #resources ul {
+      flex-direction: row;
+    }
+  
+    #resources li {
+      flex: 0 0 100%;
+    }
+  }
+
+  
+
+
+  
+  /* Encabezado */
+  header {
+    background-color: #f6d5d8;
+    padding: 20px;
+  }
+  
+  /* Menú */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Estilos para pantallas grandes */
+  @media (min-width: 768px) {
+    nav a {
+      font-size: 16px;
+      text-decoration: underline;
+      background-color: #f6d5d8;
+      transition: background-color 0.3s ease;
+    }
+  
+    nav a:hover {
+      background-color: #e5c8e6;
+    }
+  }
+  
+  /* Estilos para pantallas pequeñas */
+  @media (max-width: 767px) {
+    nav {
+      position: relative;
+    }
+  
+    nav ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: #f6d5d8;
+      text-align: center;
+    }
+  
+    nav li {
+      display: block;
+      border-bottom: 1px solid #ccc;
+    }
+  
+    nav a {
+      font-size: 14px;
+      font-weight: bold;
+      text-decoration: underline;
+      background-color: #f6d5d8;
+      transition: background-color 0.3s ease;
+    }
+  
+    nav a:hover {
+      background-color: #e5c8e6;
+    }
+  
+    /* Mostrar el menú al hacer clic en el ícono de hamburguesa */
+    .menu-icon {
+      display: block;
+      text-align: center;
+      color: #333;
+      cursor: pointer;
+    }
+  }
+
+
+  section#benefits img {
+    width: 131px;
+}
