@@ -296,7 +296,11 @@ body {
   
   /* Encabezado */
   header {
+<<<<<<< HEAD
     background-color: #94a622;
+=======
+    background-color: red;
+>>>>>>> version-javascript
     padding: 20px;
   }
   
