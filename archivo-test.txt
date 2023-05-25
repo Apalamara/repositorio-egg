@@ -1,14 +1,3 @@
 Hola,mundo!
 
-le cambio esto pero no hago commit 
-
-como already up to date
-
-otra lineas
-modificado en la rama version js
-
-
-aaaaaaaaa
-aaaaaaaaaa
-aaaaaaaaaa
-aaaaaaaaa
+Estoy editando este texto para subir a github. 
